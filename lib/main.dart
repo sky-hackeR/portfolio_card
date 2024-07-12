@@ -11,30 +11,24 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget> [
-              Container(
-                height: 100.0,
-                width: 100.0, 
-                color: Colors.white,
-                child: const Text('Container 1'),
+            children: <Widget>[
+              CircleAvatar(
+                radius: 50.0,
+                backgroundColor: Colors.brown,
+                backgroundImage: AssetImage('images/dave.jpg'),
               ),
-              Container(
-                width: 100.0,
-                height: 100.0,
-                color: Colors.brown,
-                child: const Text('Container 2'),
-              ),
-              Container(
-                height: 100.0,
-                width: 100.0, 
-                color: Colors.yellow,
-                child: const Text('Container 3'),
+              Text(
+                'Jolayemi Olugbnega David',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold
+                ),
               ),
             ],
           ),
