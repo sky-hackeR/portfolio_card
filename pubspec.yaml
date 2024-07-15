@@ -25,3 +25,14 @@ flutter:
  
   assets:
     - images/dave.jpg
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+          style: italic
+
+    - family: Source San 3
+      fonts:
+        - asset: fonts/SourceSans3-Regular.ttf
+          style: italic
