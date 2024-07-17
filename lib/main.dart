@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'JUNIOR SOFTWARE ENGINEER',
                 style: TextStyle(
-
+                  fontFamily: 'Source Sans 3',
                   fontSize: 20.0,
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
