@@ -17,12 +17,12 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: <Widget>[
-              CircleAvatar(
+              const CircleAvatar(
                 radius: 50.0,
                 backgroundColor: Colors.brown,
                 backgroundImage: AssetImage('images/dave.jpg'),
               ),
-              Text(
+              const Text(
                 'Jolayemi Olugbnega David',
                 style: TextStyle(
                   fontFamily: 'Pacifico',
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold
                 ),
               ),
-              Text(
+              const Text(
                 'JUNIOR SOFTWARE ENGINEER',
                 style: TextStyle(
                   fontFamily: 'Source Sans 3',
@@ -42,10 +42,10 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.all(10.0),
+                padding: const EdgeInsets.all(10.0),
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: Row(
+                margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: const Row(
                   children: <Widget>[
                     Icon(
                       Icons.phone,
@@ -66,10 +66,10 @@ class MyApp extends StatelessWidget {
               ),
 
               Container(
-                padding: EdgeInsets.all(10.0),
+                padding: const EdgeInsets.all(10.0),
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: Row(
+                margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: const Row(
                   children: <Widget>[
                     Icon(
                       Icons.mail,
